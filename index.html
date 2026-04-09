@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Toronto Community Support Hub</title>
+  <meta name="description" content="Emergency, crisis, and community support resources for Toronto residents." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-orb orb-1"></div>
+  <div class="bg-orb orb-2"></div>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <p class="brand">Toronto Community Support Hub</p>
+      <a class="btn btn-outline" href="#resources">Find Help Now</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <p class="eyebrow">For Residents in Toronto</p>
+      <h1>Emergency and in-need support, all in one place.</h1>
+      <p class="lead">
+        This page helps you quickly find the right Toronto service for safety, crisis, shelter,
+        and community support.
+      </p>
+      <div class="quick-actions">
+        <a class="btn btn-danger" href="tel:911">Call 911</a>
+        <a class="btn btn-primary" href="tel:211">Call 211</a>
+        <a class="btn btn-secondary" href="tel:311">Call 311</a>
+      </div>
+      <p class="notice">
+        If there is immediate danger, a crime in progress, or a medical emergency, call <strong>911</strong>.
+      </p>
+    </section>
+
+    <section class="container" id="about-cpted">
+      <div class="section-heading">
+        <p class="eyebrow">Community Safety Lens</p>
+        <h2>About CPTED Canada</h2>
+      </div>
+      <div class="card-grid four-up">
+        <article class="card">
+          <h3>Who They Are</h3>
+          <p>
+            CPTED Canada is a non-profit education and networking organization focused on
+            Crime Prevention Through Environmental Design. It grew from CPTED Ontario, founded in 2001.
+          </p>
+        </article>
+        <article class="card">
+          <h3>Mission</h3>
+          <p>
+            Their mission is to reduce both fear of crime and crime itself by advancing CPTED practices,
+            with the goal of improving quality of life across communities.
+          </p>
+        </article>
+        <article class="card">
+          <h3>What They Do</h3>
+          <p>
+            They promote safer community design through advocacy, education, and professional networking.
+          </p>
+        </article>
+        <article class="card">
+          <h3>How They Do It</h3>
+          <p>
+            They share materials, blogs, website resources, hands-on training, conferences, and regional meetings
+            that teach practical CPTED principles.
+          </p>
+        </article>
+      </div>
+      <p class="source-note">
+        Source: <a href="https://cptedcanada.com/about-us/" target="_blank" rel="noopener noreferrer">CPTED Canada About Us</a>
+        and <a href="https://cptedcanada.com/code-of-conduct/" target="_blank" rel="noopener noreferrer">Code of Conduct</a>.
+      </p>
+    </section>
+
+    <section class="container" id="resources">
+      <div class="section-heading">
+        <p class="eyebrow">Toronto Helplines</p>
+        <h2>Choose the support you need</h2>
+      </div>
+
+      <label class="search-wrap" for="resource-search">
+        <span>Search resources</span>
+        <input id="resource-search" type="text" placeholder="Try: mental health, shelter, police, city services" />
+      </label>
+
+      <div class="resource-grid" id="resource-grid">
+        <article class="resource-card" data-tags="emergency police fire ambulance urgent">
+          <h3>Emergency Response</h3>
+          <p>For immediate danger, crimes in progress, or urgent medical emergencies.</p>
+          <p class="contact">Call: <a href="tel:911">911</a></p>
+          <a href="https://www.tps.ca/contact/9-1-1-emergency/" target="_blank" rel="noopener noreferrer">Emergency guidance</a>
+        </article>
+
+        <article class="resource-card" data-tags="city services bylaw garbage roads permits non emergency">
+          <h3>City Services (311 Toronto)</h3>
+          <p>Non-emergency City of Toronto services, programs, and requests. 24/7, 180+ languages.</p>
+          <p class="contact">Call: <a href="tel:311">311</a> (Toronto), <a href="tel:+14163922489">416-392-2489</a> (outside city)</p>
+          <a href="https://www.toronto.ca/home/311-toronto-at-your-service/" target="_blank" rel="noopener noreferrer">Visit 311 Toronto</a>
+        </article>
+
+        <article class="resource-card" data-tags="mental health crisis non police tccs wellness check trauma informed">
+          <h3>Toronto Community Crisis Service (TCCS)</h3>
+          <p>Free, confidential, in-person non-police mental health crisis support for residents age 16+ (24/7).</p>
+          <p class="contact">Access via: <a href="tel:211">211</a> or <a href="tel:+18008363238">1-800-836-3238</a></p>
+          <a href="https://www.toronto.ca/community-people/public-safety-alerts/toronto-community-crisis-service/" target="_blank" rel="noopener noreferrer">TCCS details</a>
+        </article>
+
+        <article class="resource-card" data-tags="social services community support referrals information">
+          <h3>211 Ontario</h3>
+          <p>Connects people to social services, programs, and community supports across Ontario.</p>
+          <p class="contact">Call: <a href="tel:211">211</a></p>
+          <a href="https://211ontario.ca/" target="_blank" rel="noopener noreferrer">Visit 211 Ontario</a>
+        </article>
+
+        <article class="resource-card" data-tags="police non emergency theft noise report concern">
+          <h3>Toronto Police Non-Emergency</h3>
+          <p>For non-urgent police concerns, reporting, and service support.</p>
+          <p class="contact">Call: <a href="tel:+14168082222">416-808-2222</a> (or *TPS)</p>
+          <a href="https://www.tps.ca/contact/416-808-2222-police-non-emergency/" target="_blank" rel="noopener noreferrer">Non-emergency info</a>
+        </article>
+
+        <article class="resource-card" data-tags="shelter homelessness housing street outreach central intake">
+          <h3>Emergency Shelter & Homeless Help</h3>
+          <p>City services for shelter access, respite, and street outreach.</p>
+          <p class="contact">Central Intake: <a href="tel:+14163384766">416-338-4766</a> | Toll-free: <a href="tel:+18773383398">1-877-338-3398</a></p>
+          <a href="https://www.toronto.ca/community-people/housing-shelter/homeless-help/" target="_blank" rel="noopener noreferrer">Homeless Help resources</a>
+        </article>
+
+        <article class="resource-card" data-tags="distress suicide prevention emotional support crisis helpline">
+          <h3>Distress Centres of Greater Toronto</h3>
+          <p>Crisis intervention, emotional support, and suicide prevention support.</p>
+          <p class="contact">Help line: <a href="tel:+14164084357">416-408-4357</a></p>
+          <a href="https://www.dcogt.com/" target="_blank" rel="noopener noreferrer">Visit DCOGT</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="container extra-links">
+      <div class="section-heading">
+        <p class="eyebrow">More City of Toronto Sources</p>
+        <h2>Official pages you can bookmark</h2>
+      </div>
+      <ul>
+        <li><a href="https://www.toronto.ca/community-people/health-wellness-care/health-programs-advice/mental-health-resources/" target="_blank" rel="noopener noreferrer">Toronto mental health resources</a></li>
+        <li><a href="https://www.toronto.ca/home/311-toronto-at-your-service/make-the-right-call/" target="_blank" rel="noopener noreferrer">Make the right call (911, 311, etc.)</a></li>
+        <li><a href="https://www.toronto.ca/community-people/employment-social-support/" target="_blank" rel="noopener noreferrer">Support for people in financial need</a></li>
+        <li><a href="https://www.toronto.ca/community-people/housing-shelter/housing-help-support-services/" target="_blank" rel="noopener noreferrer">Housing help and support services</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p>
+        This community presentation page summarizes public information and links to official providers.
+        For the most current details, use the official websites listed above.
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
